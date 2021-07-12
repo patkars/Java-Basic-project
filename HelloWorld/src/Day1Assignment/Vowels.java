@@ -1,9 +1,12 @@
-package com.shruti;
+package Day1Assignment;
+
 import java.util.Scanner;
-public class Vowals {
+
+public class Vowels 
+	{
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the Alphabet:");
 		char ch = sc.next().charAt(0);
@@ -15,9 +18,7 @@ public class Vowals {
 		}
 		else
 		{
-			System.out.println("Consonent");
+			System.out.println("Consonents");
 		}
-		
 	}
-
 }

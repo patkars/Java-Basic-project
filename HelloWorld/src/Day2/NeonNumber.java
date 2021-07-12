@@ -19,7 +19,7 @@ public class NeonNumber {
             m = m / 10;
             sum=sum*sum;
         }
-        System.out.println("total num:"+sum);
+        System.out.println("total sum:"+sum);
         if(g==sum) 
         {
         	System.out.println("It is a Neon number");

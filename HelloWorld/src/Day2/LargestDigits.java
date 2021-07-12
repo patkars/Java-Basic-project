@@ -11,6 +11,7 @@ public class LargestDigits {
         int number = s.nextInt();
         s.close();
         large=number%10;
+        number=number/10;
         		
         while (number > 0)
         {
@@ -21,7 +22,7 @@ public class LargestDigits {
             }
             number=number/10;
         }
-        System.out.println("Least number from given number is :"+large);
+        System.out.println("Largest number from given number is :"+large);
 	}
 
 }
